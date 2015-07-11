@@ -6,5 +6,5 @@ module.exports = function (val) {
 		throw new TypeError('Expected a string or a number');
 	}
 
-	return Array.isArray(String(val).match(/^1([01]+)?$/)) || val === '0' || val === 0;
+	return Array.isArray(String(val).match(/^1([01]+)?$/)) || String(val) === '0';
 };
