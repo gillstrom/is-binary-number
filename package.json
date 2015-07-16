@@ -27,7 +27,7 @@
     "test"
   ],
   "dependencies": {
-    "multi-typeof": "0.0.0"
+    "multi-typeof": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "*"
